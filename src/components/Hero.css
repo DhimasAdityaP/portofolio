@@ -1,0 +1,34 @@
+/* src/components/Hero.css */
+
+.hero-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    padding-top: 60px; /* Untuk menghindari navbar */
+  }
+  
+  .hero-container {
+    max-width: 600px;
+  }
+  
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 4px solid #fff;
+  }
+  
+  .hero-section h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .hero-section p {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
