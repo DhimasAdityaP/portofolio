@@ -47,10 +47,16 @@ const Navbar = () => {
             </Link>
           </li>
         </ul>
-        <div className="hamburger" onClick={toggleMenu}>
+          <div className="hamburger" onClick={toggleMenu}>
           {isOpen ? <FaTimes /> : <FaBars />}
         </div>
-      </div>
+        {/* Add your image here */}
+        <img 
+            src="./profile.jpg" 
+            alt="Profile" 
+            className="profile-pic" 
+          />
+          </div>
     </nav>
   );
 };
